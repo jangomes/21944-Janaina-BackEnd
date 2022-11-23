@@ -2,7 +2,12 @@ BSC30921 - Back-end Web Development - Continuous Assessment 1
 
 ASSIGNMENT SOLUTION
 
-In this assignment we are developing a web application, Python, Django, MySQL will be used. I started by creating the project in python and ran the Django Development Server, created polls where we can see two models “Question” and “Choice”. I developed views and configured the database. I created a model that is nothing more than a source of information about the data and includes migrations that are derived from the model files, which make it easier for Django to update the database schema to match the most current models. The application connects to the database. I created a user who can login to the admin site and a basically user. Basically, the site has login and logout, you can reset your password and sign up. You can see the homepage after logged in, if you are logged in as an administrator you can see the available functions like adding or changing groups, users and questions. Users can vote in polls and see the result and the number of votes. I have a file base that helps me to make building the site easier. The project has a certain complexity where it is possible to create operations such as read, update and delete. 
+In this assignment we are developing a web application, Python, Django, MySQL will be used. I started by creating the project in python and ran the Django Development Server, I have the page mysite that is the root directory to my site. I created polls where we can see two models “Question” and “Choice”.
+I also developed the view to request and returns a web response. I set up the database using the mySQLDatabase.
+I created a model that is nothing more than a source of information about the data and includes migrations that are derived from the model files, which make it easier for Django to update the database schema to match the most current models. 
+I created a user who can login to the admin site and can modify the questions, choices. 
+I set up three questions and for each question you can vote in one choice and at the end is possible to see the total points.
+ 
 
 
 
