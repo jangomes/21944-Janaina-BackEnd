@@ -2,7 +2,7 @@ BSC30921 - Back-end Web Development - Continuous Assessment 1
 
 ASSIGNMENT SOLUTION
 
-In this assignment we are developing a web application, Python, Django, MySQL will be used. I started by creating the project in python and ran the Django Development Server, I have the page mysite that is the root directory to my site. I created polls where we can see two models “Question” and “Choice”.
+In this assignment we are developing a web application, Python, Django, MySQL will be used. I started by creating the project in python and ran the Django Development Server, I have the page mysite that is the root directory to my site. I created polls where we can see two models, “Question” and “Choice”.
 I also developed the view to request and returns a web response. I set up the database using the mySQLDatabase.
 I created a model that is nothing more than a source of information about the data and includes migrations that are derived from the model files, which make it easier for Django to update the database schema to match the most current models. 
 I created a user who can login to the admin site and can modify the questions, choices. 
